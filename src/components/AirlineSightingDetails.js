@@ -38,6 +38,8 @@ const AirlineSightingDetails = () => {
                         <Typography variant="body1">Short Name: {sighting.shortName}</Typography>
                         <Typography variant="body1">Airline Code: {sighting.airlineCode}</Typography>
                         <Typography variant="body1">Location: {sighting.location}</Typography>
+                        <Typography variant="body1">Created User: {sighting.createdUser?.username}</Typography>
+                        <Typography variant="body1">Modified User: {sighting.modifiedUser?.username? sighting.modifiedUser.username : "none" }</Typography>
                         <Typography variant="body1">Created Date: {new Date(sighting.createdDate).toLocaleString()}</Typography>
                     </CardContent>
                     <CardContent>
