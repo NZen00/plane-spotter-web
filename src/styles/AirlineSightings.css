@@ -1,0 +1,13 @@
+.btn-sr-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-button {
+margin-left: 5px !important;
+}
+
+.search-box {
+    width: 250px;
+    margin-left: auto;
+}
